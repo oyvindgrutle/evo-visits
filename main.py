@@ -30,9 +30,9 @@ async def evo(ctx, arg):
         response = await getNPeople(location)
         JSONResponse = json.loads(response.text)
         current = JSONResponse["current"]
-        await ctx.send(f'Det er nå {current} personer inne på EVO {arg}')
+        await ctx.reply(f'Det er nå {current} personer inne på EVO {arg}')
     except:
-        await ctx.send(f'{arg} finnes ikke')
+        await ctx.reply(f'{arg} finnes ikke')
     
 
 print("Bot running")
