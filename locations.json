@@ -1,0 +1,208 @@
+{
+    "Locations": [
+        {
+            "id": "ca67821f-4e41-4fe4-8c54-c2ee5af715c7",
+            "name": "EVO Bjergsted"
+        },
+        {
+            "id": "1ad4735d-668a-4dc0-afed-a3754c444de2",
+            "name": "EVO Bryn"
+        },
+        {
+            "id": "c9c3dea8-382b-4338-b5ee-3a2dbb9234be",
+            "name": "EVO Bryne"
+        },
+        {
+            "id": "90647206-4a35-4f22-904e-908a30ccc2ff",
+            "name": "EVO CC Drammen"
+        },
+        {
+            "id": "e90321b4-ae2e-4e91-9c38-8ecff2c409a3",
+            "name": "EVO Damsgård"
+        },
+        {
+            "id": "840ceea5-6824-412a-bd92-39c64a52cec4",
+            "name": "EVO Drammen"
+        },
+        {
+            "id": "a310dd55-afa4-4b85-a1aa-e165235f3de0",
+            "name": "EVO Drøbak"
+        },
+        {
+            "id": "5594b903-e19e-4fb7-b109-770de128e20a",
+            "name": "EVO Egersund"
+        },
+        {
+            "id": "63a2e000-c5e7-4c99-a6d4-c4ec124b287a",
+            "name": "EVO Fagerholt"
+        },
+        {
+            "id": "34bfe554-4cba-4cd6-a9da-f6596df759f6",
+            "name": "EVO Forus"
+        },
+        {
+            "id": "c5f27a40-22dc-4e9d-8688-c2e8308b4ed8",
+            "name": "EVO Fredrikstad"
+        },
+        {
+            "id": "2bc49af3-bfef-438a-a7f0-5175a60e6d6d",
+            "name": "EVO Frysja"
+        },
+        {
+            "id": "26c5fa56-1201-460b-924a-f563244c9148",
+            "name": "EVO Gran"
+        },
+        {
+            "id": "3503283e-eefd-4d33-bfe1-75a83d08dc1c",
+            "name": "EVO Greåker"
+        },
+        {
+            "id": "003bd1b4-e98c-4ec1-9133-e4d06101326a",
+            "name": "EVO Grünerløkka"
+        },
+        {
+            "id": "7f807fc5-53f2-4c4e-808f-1867aa838504",
+            "name": "EVO Haugesund"
+        },
+        {
+            "id": "7c598781-96fb-4f0e-b395-43cfbb5593ca",
+            "name": "EVO Horten"
+        },
+        {
+            "id": "3ab9646d-e6a0-4349-bc11-ab827e784c25",
+            "name": "EVO Hønefoss"
+        },
+        {
+            "id": "93a34c60-48b6-4b35-b1cc-62755b368cf1",
+            "name": "EVO Jessheim"
+        },
+        {
+            "id": "c5821d1f-a438-4c8b-a0c1-a1776f5e8f63",
+            "name": "EVO Kirkenes-Hesseng"
+        },
+        {
+            "id": "90205140-92ad-4bde-8d7c-75b6bea0b108",
+            "name": "EVO Konnerud"
+        },
+        {
+            "id": "82b8c546-5041-4629-bf51-6f786f2eb8d4",
+            "name": "EVO Larvik"
+        },
+        {
+            "id": "dd77df36-1edc-4b92-a256-d75e463af6c1",
+            "name": "EVO Lillehammer"
+        },
+        {
+            "id": "c1770126-0744-40e8-a9dc-b9ec9e975566",
+            "name": "EVO Lillestrøm"
+        },
+        {
+            "id": "ceb2b731-522d-4cb9-922b-bfb4bb60bb69",
+            "name": "EVO Majorstua"
+        },
+        {
+            "id": "9cb28b12-ce7f-4c86-a74c-86a3a2edecb9",
+            "name": "EVO Moss"
+        },
+        {
+            "id": "db59ecd1-b950-404d-8ab2-c1dc3d0fa45e",
+            "name": "EVO Nannestad"
+        },
+        {
+            "id": "ea1a3ac1-4ad9-4dbd-aa6c-faeb6f60d0d6",
+            "name": "EVO Narvik"
+        },
+        {
+            "id": "0ed3a662-95d2-4055-bc94-5550b545f604",
+            "name": "EVO Nesttun"
+        },
+        {
+            "id": "f8ec84b3-3c8c-455a-9936-201954b7e582",
+            "name": "EVO Nordnes"
+        },
+        {
+            "id": "0b3390cc-a035-4262-a188-12b2a829d455",
+            "name": "EVO Nordstrand"
+        },
+        {
+            "id": "451c2ecf-3268-4b2b-ac62-efa3206b6b14",
+            "name": "EVO Nordås"
+        },
+        {
+            "id": "a8683222-2284-411c-bcfb-e9f0e6e9f913",
+            "name": "EVO Nydalen"
+        },
+        {
+            "id": "1a50d51d-c74a-4086-8d40-40ff16c0a946",
+            "name": "EVO Os"
+        },
+        {
+            "id": "1e724456-b640-4b03-9b65-0cf7734aa38e",
+            "name": "EVO Oscarsgate"
+        },
+        {
+            "id": "181b9147-91f4-409f-9a31-201107baa1a8",
+            "name": "EVO Paradis"
+        },
+        {
+            "id": "d2ca4884-aedd-4183-a08e-822fec2d2d43",
+            "name": "EVO Røa"
+        },
+        {
+            "id": "16806e2b-3b55-4ea9-8cef-d1fb109e545f",
+            "name": "EVO SNØ Lørenskog"
+        },
+        {
+            "id": "412ec16b-04db-4aae-b855-7a32a22a8698",
+            "name": "EVO Sandefjord Vest"
+        },
+        {
+            "id": "7f85a407-43ff-403a-a579-daa5ba171618",
+            "name": "EVO Sandefjord Øst"
+        },
+        {
+            "id": "b0aa4cc9-2bd6-462f-9ee2-12d59b012951",
+            "name": "EVO Sandnes"
+        },
+        {
+            "id": "9424345c-0d29-42d6-ac12-4e1cee154fef",
+            "name": "EVO Sjølyst"
+        },
+        {
+            "id": "0b8c1f94-eb2d-4669-b2b7-fea7dbe224a4",
+            "name": "EVO Stabekk"
+        },
+        {
+            "id": "034ce5d0-1fe3-4851-a39e-b834def14349",
+            "name": "EVO Strømsø"
+        },
+        {
+            "id": "fdda0d5c-8696-4b3a-a5ec-650bcf760cc3",
+            "name": "EVO Tromsø Nord"
+        },
+        {
+            "id": "1444dbb2-8f5d-4176-9559-079381f98825",
+            "name": "EVO Tromsø Sør"
+        },
+        {
+            "id": "27ab1185-616a-4129-9c99-fcab5a65e651",
+            "name": "EVO Tønsberg"
+        },
+        {
+            "id": "b86b620f-ff98-44f8-a9d5-5e4c74e925ca",
+            "name": "EVO Vika"
+        },
+        {
+            "id": "679682c1-c270-4569-9be7-411fbdb369d1",
+            "name": "EVO Ålgård"
+        },
+        {
+            "id": "4795c74d-5451-4f60-bb23-26d68efc626d",
+            "name": "EVO Årvoll"
+        },
+        {
+            "id": "9df4fa53-3b8c-485e-a6a1-772d5aea490e",
+            "name": "EVO Østerås"
+        }
+    ]
+}
