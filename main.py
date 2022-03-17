@@ -45,7 +45,7 @@ async def evo(ctx, arg):
         await ctx.reply(f'{arg} finnes ikke')
     
 @bot.command()
-async def evo(ctx):
+async def lokasjoner(ctx):
     await ctx.reply(allLocations)
 
 print("Bot running")
