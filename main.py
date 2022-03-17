@@ -8,11 +8,21 @@ from api.api import getNPeople
 def loadLocations():
     f = open('locations.json')
     data = json.load(f)
+    f.close()
 
     locations = dict([((i["name"]).split("EVO ")[-1],i["id"]) for i in data["Locations"]])
     return locations
 
 locations = loadLocations()
+
+def getLocations():
+    f = open('locations.json')
+    data = json.load(f)
+    f.close()
+    allLocations = [i["name"] for i in data["Locations"]]
+    print(str(allLocations))
+
+allLocations = str(getLocations())
 
 load_dotenv()
 BOT_TOKEN = os.getenv('BOT_TOKEN')
@@ -34,6 +44,9 @@ async def evo(ctx, arg):
     except:
         await ctx.reply(f'{arg} finnes ikke')
     
+@bot.command()
+async def evo(ctx):
+    await ctx.reply(allLocations)
 
 print("Bot running")
 bot.run(str(BOT_TOKEN))
