@@ -46,7 +46,7 @@ async def evo(ctx, arg):
     
 @bot.command()
 async def lokasjoner(ctx):
-    await ctx.reply(allLocations)
+    await ctx.reply(locations)
 
 print("Bot running")
 bot.run(str(BOT_TOKEN))
