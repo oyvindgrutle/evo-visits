@@ -10,7 +10,7 @@ def loadLocations():
     data = json.load(f)
     f.close()
 
-    locations = dict([((i["name"]).split("EVO ")[-1],i["id"]) for i in data["Locations"]])
+    locations = dict([((i["name"]).split("EVO ")[-1].lower(),i["id"]) for i in data["Locations"]])
     return locations
 
 locations = loadLocations()
@@ -36,11 +36,11 @@ async def hello(ctx):
 @bot.command()
 async def evo(ctx, arg):
     try:
-        location = str(locations[arg])
+        location = str(locations[arg.lower()])
         response = await getNPeople(location)
         JSONResponse = json.loads(response.text)
         current = JSONResponse["current"]
-        await ctx.reply(f'Det er nå {current} personer inne på EVO {arg}')
+        await ctx.reply(f'Det er nå {current} personer inne på EVO {arg.capitalize()}')
     except:
         await ctx.reply(f'{arg} finnes ikke')
     
