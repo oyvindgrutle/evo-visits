@@ -51,7 +51,8 @@ async def lokasjoner(ctx):
 @bot.command()
 async def evod(ctx):
     try:
-        response = await getNPeople("damsgård")
+        location = str(locations["damsgård"])
+        response = await getNPeople(location)
         JSONResponse = json.loads(response.text)
         current = JSONResponse["current"]
         await ctx.reply(f'Det er nå {current} personer inne på EVO Damsgård')
