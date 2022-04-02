@@ -48,5 +48,16 @@ async def evo(ctx, arg):
 async def lokasjoner(ctx):
     await ctx.reply(locations)
 
+@bot.command()
+async def evod(ctx):
+    try:
+        response = await getNPeople("damsgård")
+        JSONResponse = json.loads(response.text)
+        current = JSONResponse["current"]
+        await ctx.reply(f'Det er nå {current} personer inne på EVO Damsgård')
+    except:
+        await ctx.reply(f'Internal server error')
+
+
 print("Bot running")
 bot.run(str(BOT_TOKEN))
