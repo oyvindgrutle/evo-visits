@@ -13,6 +13,7 @@ def loadLocations():
     locations = dict([((i["name"]).split("EVO ")[-1].lower(),i["id"]) for i in data["Locations"]])
     return locations
 
+#Load location ids from local JSON file
 locations = loadLocations()
 
 def getLocations():
